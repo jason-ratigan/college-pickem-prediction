@@ -1,0 +1,25 @@
+{
+  "name": "college-pickem-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "client",
+    "server",
+    "shared"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm:dev --workspace=client\" \"npm:dev --workspace=server\"",
+    "build": "npm run build --workspace=shared && npm run build --workspace=client && npm run build --workspace=server",
+    "start": "npm run start --workspace=server",
+    "drizzle:generate": "npm run drizzle:generate --workspace=server",
+    "drizzle:migrate": "npm run drizzle:migrate --workspace=server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "node-fetch": "^3.3.2"
+  }
+}

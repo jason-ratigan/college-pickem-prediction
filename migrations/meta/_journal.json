@@ -1,0 +1,48 @@
+{
+  "version": "6",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1757961805676,
+      "tag": "0000_high_marvex",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1758321067161,
+      "tag": "0001_shiny_spot",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1758748894813,
+      "tag": "0002_milky_moonstone",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1759700561053,
+      "tag": "0003_add_regression_weight_tables",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1759700880625,
+      "tag": "0004_high_ogun",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1732320000000,
+      "tag": "0005_add_session_table",
+      "breakpoints": true
+    }
+  ]
+}

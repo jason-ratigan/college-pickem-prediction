@@ -1,0 +1,33 @@
+REGRESSION ANALYSIS VALIDATION RESULTS
+==================================================
+Generated: 10/18/2025, 12:35:33 AM
+Season: 2024
+
+SUMMARY:
+Overall Health Score: 40%
+System Status: 🔴 CRITICAL
+Valid Components: 2/5
+Runtime: 2015ms
+
+COMPONENT RESULTS:
+  FAILED: Data Pipeline (Score: 65/100)
+  FAILED: Regression Analysis (Score: 43/100)
+  FAILED: Weight Calculation (Score: 40/100)
+  PASSED: Prediction Accuracy (Score: 87/100)
+  PASSED: Sample Game Analysis (Score: 33/100)
+
+RECOMMENDATIONS:
+  1. System requires immediate attention
+  2. Multiple critical issues detected
+
+API ENDPOINTS:
+  Comprehensive: POST /api/v1/admin/validation/comprehensive/2024
+  Analysis Report: GET /api/v1/admin/validation/analysis-report/2024
+  Individual: POST /api/v1/admin/validation/{component}/2024
+  Status: GET /api/v1/admin/validation/status
+
+NEXT STEPS:
+1. Integrate validation endpoints into your admin interface
+2. Set up regular monitoring schedule
+3. Address any failed components
+4. Review detailed component results for specific issues

@@ -1,0 +1,68 @@
+{
+  "timestamp": "2025-10-18T04:35:33.408Z",
+  "season": 2024,
+  "summary": {
+    "overallScore": 40,
+    "healthStatus": "CRITICAL",
+    "validComponents": 2,
+    "totalComponents": 5,
+    "duration": 2015
+  },
+  "components": [
+    {
+      "name": "Data Pipeline",
+      "status": "FAILED",
+      "score": 65,
+      "errorCount": 1,
+      "warningCount": 0,
+      "recommendationCount": 0,
+      "success": true
+    },
+    {
+      "name": "Regression Analysis",
+      "status": "FAILED",
+      "score": 43,
+      "errorCount": 0,
+      "warningCount": 0,
+      "recommendationCount": 2,
+      "success": true
+    },
+    {
+      "name": "Weight Calculation",
+      "status": "FAILED",
+      "score": 40,
+      "errorCount": 3,
+      "warningCount": 0,
+      "recommendationCount": 3,
+      "success": true
+    },
+    {
+      "name": "Prediction Accuracy",
+      "status": "PASSED",
+      "score": 87,
+      "errorCount": 0,
+      "warningCount": 0,
+      "recommendationCount": 3,
+      "success": true
+    },
+    {
+      "name": "Sample Game Analysis",
+      "status": "PASSED",
+      "score": 33,
+      "errorCount": 0,
+      "warningCount": 1,
+      "recommendationCount": 2,
+      "success": true
+    }
+  ],
+  "recommendations": [
+    "System requires immediate attention",
+    "Multiple critical issues detected"
+  ],
+  "apiEndpoints": {
+    "comprehensive": "POST /api/v1/admin/validation/comprehensive/2024",
+    "analysisReport": "GET /api/v1/admin/validation/analysis-report/2024",
+    "individual": "POST /api/v1/admin/validation/{component}/2024",
+    "status": "GET /api/v1/admin/validation/status"
+  }
+}
