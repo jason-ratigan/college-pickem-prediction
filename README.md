@@ -94,6 +94,3 @@ npm run start
 
 ## Contributing
 All new code must be written in TypeScript. Adhere to the established C-S-R architecture for backend changes. Formatting is handled via Prettier and ESLint.
-
-## License
-[License Type] - See LICENSE file for details.
