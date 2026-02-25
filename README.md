@@ -92,6 +92,9 @@ Starts the compiled Node.js backend. The backend is configured to serve the buil
 npm run start
 ```
 
-© 2026 Jason Ratigan. All rights reserved.
 ## Contributing
 All new code must be written in TypeScript. Adhere to the established C-S-R architecture for backend changes. Formatting is handled via Prettier and ESLint.
+
+© 2026 Jason Ratigan. All rights reserved.
+This code is provided for viewing purposes only.
+No commercial use permitted without express permission.
